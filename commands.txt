@@ -12,3 +12,71 @@ python -m streamlit run app.py
 
 # Deactivate virtual environment when finished
 deactivates
+
+
+# 1. Check Git installation
+git --version
+
+# 2. Go to project folder
+cd "C:\Users\krish\OneDrive\Documents\airesume"
+
+# 3. Initialize Git
+git init
+
+# 4. Check Git status
+git status
+
+# 5. Add all project files
+git add .
+
+# 6. Set Git username (first time only)
+git config --global user.name "Madhuri Krishna"
+
+# 7. Set Git email (first time only)
+git config --global user.email "your-github-email@example.com"
+
+# 8. Create a commit
+git commit -m "Initial commit"
+
+# 9. Rename branch to main
+git branch -M main
+
+# 10. Connect local project to GitHub
+git remote add origin https://github.com/YOUR_USERNAME/ai-resume-analyzer.git
+
+# 11. Check remote connection
+git remote -v
+
+# 12. Push project to GitHub
+git push -u origin main
+
+
+# ------------------------------------------------
+# FOR FUTURE UPDATES
+# ------------------------------------------------
+
+# Check changed files
+git status
+
+# Add changes
+git add .
+
+# Commit changes
+git commit -m "Update project"
+
+# Push changes to GitHub
+git push
+
+
+# ------------------------------------------------
+# USEFUL COMMANDS
+# ------------------------------------------------
+
+# View commit history
+git log --oneline
+
+# View current branch
+git branch
+
+# View remote GitHub repository
+git remote -v
