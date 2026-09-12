@@ -1,0 +1,4 @@
+test_resume,expected_top_role,actual_top_role,comments
+Resume A,Data Analyst,,
+Resume B,Machine Learning Engineer,,
+Resume C,NLP Engineer,,
